@@ -27,10 +27,10 @@ class TypedReactDemo extends React.Component {
 
   render() {
     return (
-      <div className="wrap">
+      <div className="wrap" style={{textAlign:"center"}}>
         <div className="type-wrap">
           <span
-            style={{ whiteSpace: "pre" }}
+            style={{ whiteSpace: "pre", fontSize:'18px', textAlign:"center" }}
             ref={el => {
               this.el = el;
             }}

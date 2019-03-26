@@ -4,13 +4,9 @@ import { Route } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
+import styled from "./styled.module.css"
 const Content = () => (
-  <Container
-    text
-    style={{
-      marginTop: "10em"
-    }}
-  >
+  <Container className={styled.containerWrapper}>
     <Route exact={true} path="/" component={Home} />
     <Route path="/about" component={About} />
     <Route path="/contact" component={Contact} />
