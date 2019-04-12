@@ -2,6 +2,7 @@ import React from "react";
 import { Tab } from "semantic-ui-react";
 import Experience from "./Experience";
 import Study from "./Study";
+import TopSkills from "./TopSkills";
 
 const panes = [
   {
@@ -22,7 +23,11 @@ const panes = [
   },
   {
     menuItem: "Top Skills",
-    render: () => <Tab.Pane attached={false}>Tab 3 Content</Tab.Pane>
+    render: () => (
+      <Tab.Pane attached={false}>
+        <TopSkills />
+      </Tab.Pane>
+    )
   }
 ];
 

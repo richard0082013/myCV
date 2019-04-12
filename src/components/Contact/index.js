@@ -1,5 +1,5 @@
 import React from "react";
 
-const Contact = () => <p>Contact</p>;
+const Contact = () => <p>In Construction....</p>;
 
 export default Contact;
