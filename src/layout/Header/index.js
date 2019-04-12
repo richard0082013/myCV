@@ -5,13 +5,12 @@ import { Link } from "react-router-dom";
 const Header = () => (
   <Menu inverted>
     <Container>
-      <Menu.Item as="a" header>
-        <Image size="mini" src={logo} style={{ marginRight: "1.5em" }} />
-        Bo Tian
-      </Menu.Item>
-      <Menu.Item>
-        <Link to="/">Home</Link>
-      </Menu.Item>
+      <Link to="/">
+        <Menu.Item as="a" header>
+          <Image size="mini" src={logo} style={{ marginRight: "1.5em" }} />
+          Bo Tian (Richard)
+        </Menu.Item>
+      </Link>
       <Menu.Item>
         <Link to="/about">About me</Link>
       </Menu.Item>
