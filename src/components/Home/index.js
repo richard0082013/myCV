@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Image, Card } from "semantic-ui-react";
-import myImage from "../../assets/image/logo.png";
+import myImage from "../../assets/image/logo.jpg";
 import TypedReactDemo from "./TypedReactDemo";
 const description = ["Welcome aboard!"].join(" ");
 const Home = () => (

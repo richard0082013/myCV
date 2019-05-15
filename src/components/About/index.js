@@ -20,15 +20,15 @@ const panes = [
         <Study />
       </Tab.Pane>
     )
-  },
-  {
-    menuItem: "Top Skills",
-    render: () => (
-      <Tab.Pane attached={false}>
-        <TopSkills />
-      </Tab.Pane>
-    )
   }
+  // {
+  //   menuItem: "Top Skills",
+  //   render: () => (
+  //     <Tab.Pane attached={false}>
+  //       <TopSkills />
+  //     </Tab.Pane>
+  //   )
+  // }
 ];
 
 const About = () => <Tab menu={{ pointing: true }} panes={panes} />;

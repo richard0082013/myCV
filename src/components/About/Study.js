@@ -3,7 +3,7 @@ import { Icon, Step, List, Image } from "semantic-ui-react";
 import uowLogo from "../../assets/image/uow.png";
 const Study = () => (
   <Step.Group>
-    <Step completed>
+    <Step completed style={{ paddingLeft: "18px", paddingRight: "18px" }}>
       <Icon name="checkmark" />
       <Step.Content>
         <Step.Title>Bachelor Degree (Computer Science)</Step.Title>
@@ -31,7 +31,7 @@ const Study = () => (
       </Step.Content>
     </Step>
 
-    <Step completed>
+    <Step completed style={{ paddingLeft: "18px", paddingRight: "18px" }}>
       <Icon name="checkmark" />
       <Step.Content>
         <Step.Title>Master Degree (Information Technology)</Step.Title>
@@ -55,7 +55,7 @@ const Study = () => (
         </List>
       </Step.Content>
     </Step>
-    <Step>
+    <Step style={{ paddingLeft: "37px", paddingRight: "37px" }}>
       <Icon name="code" />
       <Step.Content>
         <Step.Title>Working</Step.Title>
